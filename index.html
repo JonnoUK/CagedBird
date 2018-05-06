@@ -4,21 +4,38 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
+$(document).ready(function(){
+    $(".hand").mouseover(function(){
+        $(".hand").hide();
+        $(".hand2").show();
+    });
+    $(".hand2").mouseout(function(){
+     	$(".hand2").hide();
+        $(".hand").show();
+    
+    });
 
+    $(".logo").mouseover(function(){
+        $(".logo").hide();
+        $(".logo2").show();
+    });
+    $(".logo2").mouseout(function(){
+     	$(".logo2").hide();
+        $(".logo").show();
+    
+    });
+});
 </script>
 
 </head>
 
 <body>
 
-<img src="Hand.png" alt="" class="hand" onload=" $(this).fadeIn(1000);">
-<div id="div1">
+<img src="Hand.png" alt="" class="hand" onload="$(this).fadeIn(1000);"></img>
+<img src="hand_2.png" alt="" class="hand2"></img>
 <img src="caged-bird.png" alt="" class="logo" onload="$(this).delay(2000); $(this).fadeIn(1000);">
+<img src="cagedbird_2.png" alt="" class="logo2">
 </img>
-
-</div>
-
-
 
 
 </body>

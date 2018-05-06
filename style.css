@@ -1,12 +1,17 @@
-
-
 body {
 background-color: #e20161;
 margin: 0px;
 }
 
 .logo {
-	margin-top: -420px;
+margin-top: -415px;
+	margin-left: 25px;
+	height: 190px;
+	display: none;
+}
+
+.logo2 {
+margin-top: -415px;
 	margin-left: 25px;
 	height: 190px;
 	display: none;
@@ -14,7 +19,17 @@ margin: 0px;
 
 .hand {
 	margin-top: -180px;
-	margin-left: 25%;
+	margin-left: 50%;
     height: 600px;
     display: none;
+    background-color: none;
 }
+
+.hand2 {
+	margin-top: -180px;
+	margin-left: 50%;
+    height: 600px;
+    display: none;
+    background-color: none;
+}
+
