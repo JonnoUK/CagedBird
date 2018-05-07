@@ -102,6 +102,12 @@ $(".hand").fadeIn(1000);
 	$(".text3").delay(4000);
 	$(".text3").fadeIn(1000);
 
+if($(window).width() <= 500) {
+	$(".neon2").css("display", "none");
+	$(".neon2").delay(5000);
+	$(".neon2").fadeIn(1000);
+}
+
 $(".hand2").click(function() {
     _scrollTo('#info')
 });
