@@ -26,9 +26,21 @@
     }, 1000);
     return true;
 }
+
+var fixed = document.getElementById('fixed');
+
+fixed.addEventListener('touchmove', function(e) {
+
+        e.preventDefault();
+
+}, false);
 </script>
 <script>
 $(document).ready(function(){
+
+
+
+
 $(".hand").fadeIn(1000);
 	$(".logo").delay(1000);
 	$(".logo").fadeIn(1000);
