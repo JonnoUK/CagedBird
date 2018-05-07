@@ -4,13 +4,45 @@ margin: 0px;
 overflow: hidden;
 }
 a {
+}
+.linkAlt {
+	color: white;
+	size: 50%;
+	position: absolute;
+	margin-left: 45px;
+	margin-top: -19px;
+	display: none;
+
+}
+.socialMedia {
+	position: fixed;
+	margin-left: 17%;
+	margin-top: 20px;
+	display: none;
 	cursor: pointer;
 }
+
+#facebook, #twitter, #instagram {
+	margin-top: 10px;
+	text-align: center;
+	height: 25px;
+	
+}
+
+#facebookC, #twitterC, #instagramC {
+	margin-top: 10px;
+	text-align: center;
+	height: 25px;
+	display: none;
+	cursor: pointer;
+}
+
 .logo {
 	margin-left: 25px;
 	height: 190px;
 	display: none;
 	position: fixed;
+	cursor: pointer;
 }
 
 .logo2 {
@@ -18,6 +50,7 @@ a {
 	height: 190px;
 	display: none;
 	position: fixed;
+	cursor: pointer;
 }
 
 .hand {
@@ -27,6 +60,7 @@ a {
     display: none;
     background-color: none;
     position: absolute;
+    cursor: pointer;
 }
 
 .hand2 {
@@ -36,11 +70,19 @@ a {
     display: none;
     background-color: none;
     position: absolute;
+    cursor: pointer;
+}
+
+.Line {
+	margin-left: 35px;
+	margin-top: 150px;
+	color: white;
+	position: fixed;
 }
 
 .dates {
 	margin-left: 35px;
-	margin-top: 169px;
+	margin-top: 200px;
 	color: white;
 	position: absolute;
 }
@@ -57,6 +99,7 @@ a {
 .neon2 {
 	margin-top: -40%;
 	position: relative;
+	cursor: pointer;
 }
 
 
