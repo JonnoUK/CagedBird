@@ -151,3 +151,7 @@ max-width: 100%;
 .logo, .logo2, .socialMedia, .Line {
 position: absolute;
 }
+
+#instagramCL, #facebookCL, #twitterCL {
+	size: 2.5%;
+}
