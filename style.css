@@ -5,6 +5,15 @@ overflow: hidden;
 }
 a {
 }
+
+.feather {
+	height: 80px;
+	margin-left: 200px;
+	margin-top: 9.5%;
+	position: absolute;
+	display: none;
+}
+
 .linkAlt {
 	color: white;
 	size: 50%;
