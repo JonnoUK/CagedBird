@@ -35,25 +35,36 @@
 <script>
 
 $(document).ready(function(){
-	
-$(".hand").fadeIn(1000);
 
+	$(".hand").fadeIn(3000);
+	$(".falling").fadeIn(3000);
 	$(".logo").delay(1000);
-	$(".logo").fadeIn(1000);
+	$(".logo").slideDown(1000);
 	$(".feather").delay(1000);
 	$(".feather").fadeIn(1000);
 	$(".socialMedia").delay(1000);
-	$(".socialMedia").fadeIn(1000);
+	$(".socialMedia").slideDown(1000);
 	
 		
     $(".hand").mouseover(function(){
         $(".hand").hide();
         $(".hand2").show();
+        $(".handToolTip").fadeIn(500);
     });
     $(".hand2").mouseout(function(){
      	$(".hand2").hide();
         $(".hand").show();
-    
+    	$(".handToolTip").fadeOut(1000);
+    });
+	$(".falling").mouseover(function(){
+        $(".falling").hide();
+        $(".falling2").show();
+        $(".fallingToolTip").fadeIn(1000);
+    });
+    $(".falling2").mouseout(function(){
+     	$(".falling2").hide();
+        $(".falling").show();
+    	$(".fallingToolTip").fadeOut(1000);
     });
 	
     $(".logo").mouseover(function(){
@@ -101,14 +112,32 @@ $(".hand").fadeIn(1000);
     	
     });
     
+    $(".feather").mouseover(function(){
+        $(".feather").hide();
+        $(".featherC").show();
+        $(".tagLine").fadeOut(1000);
+        $("#featherCL").fadeIn(1000);
+    });
+    $(".featherC").mouseout(function(){
+     	$(".featherC").hide();
+     	$("#featherCL").fadeOut(1000);
+     	$(".tagLine").fadeIn(1000);
+        $(".feather").show();
+    	
+    });
+    $(".tagLine").delay(1000);
+ 	$(".tagLine").fadeIn(1000);
     $(".line").delay(1000);
     $(".line").fadeIn(1000);
+    
     $(".text1").delay(2000);
 	$(".text1").fadeIn(1000);
 	$(".text2").delay(3000);
 	$(".text2").fadeIn(1000);
 	$(".text3").delay(4000);
 	$(".text3").fadeIn(1000);
+	
+	
 	
 
 
@@ -121,7 +150,13 @@ $("#topButton").click(function() {
 });
 $(".logo2").click(function() {
     _scrollTo('#top')
-});    
+});  
+$(".featherC").click(function() {
+    _scrollTo('#top')
+}); 
+
+
+  
 });
 </script>
 
@@ -134,6 +169,18 @@ $(".logo2").click(function() {
 
 <a><img src="hand_2.png"  alt="" class="hand2"></img></a>
 
+<a><img src="fallingPeople.png" alt="" class="falling"></img></a>
+
+<a><img src="fallingPeople_C.png"  alt="" class="falling2"></img></a>
+<div class="fallingToolTip">
+<h3><i>"He wears a necklace. A wreath. I think. Leaf circle. It’s like the cross around yours."</i></h3>
+
+</div>
+<div class="handToolTip">
+<h3><i>"The new is coming. It grows like the leaves
+around your neck."</i></h3>
+
+</div>
 <a><img src="caged-bird.png" alt="" class="logo"></a>
 
 <a><img src="cagedbird_2.png" alt="" class="logo2"></a>
@@ -153,10 +200,13 @@ $(".logo2").click(function() {
 <a href="http://instagram.com/cagedbirdtheatre" target="_blank"><img id="instagramC" src="logos/instagram_colour.png" alt="Instagram"></img></a>
 <br>
 <h4 id="instagramCL" class="linkAlt">@cagedbirdtheatre</h4>
-</div>
-
+<br>
+<a href="http://jonathan.taylorhq.co.uk" target="_blank"><img src="feather_c.png" alt="Feather" class="featherC"></img></a>
 <img src="feather.png" alt="Feather" class="feather"></img>
 
+</div>
+<h4 id="standardTag" class="tagLine">There's a potential to find faith in the unlikeliest of spaces.</h4>
+<h4 id="featherCL" class="featherAlt">Website created by Jonathan Taylor</h4>
 <div class="line">
 <h2><b>_______________________</b></h2>
 </div>

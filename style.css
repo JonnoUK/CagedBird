@@ -5,18 +5,81 @@ overflow: hidden;
 }
 
 
-
-.feather {
-	max-height: 80px;
-	margin-left: 200px;
-	margin-top: 125px;
-	position: fixed;
+.falling {
+	max-width: 300px;
+	margin-top: 450px;
+	margin-left: 650px;
+	transform: rotate(-30deg);
+	float: right;
+	position: absolute;
+	display: none;
+}
+.falling2 {
+	max-width: 300px;
+	margin-top: 450px;
+	margin-left: 650px;
+	transform: rotate(-30deg);
+	float: right;
+	position: absolute;
+	display: none;
+}
+.fallingToolTip {
+	color: white;
+	font-size: 65%;
+	float: right;
+	margin-top: 350px;
+	margin-right: 338px;
+	display: none;
+}
+.handToolTip {
+	color: white;
+	font-size: 65%;
+	float: right;
+	margin-top: 325px;
+	margin-right: 338px;
 	display: none;
 }
 
+.feather {
+	max-height: 75px;
+	position: fixed;
+	margin-top: -17.5px;
+	margin-left: -20px;
+	display: none;
+	
+}
+
+.featherC {
+	max-height: 75px;
+	margin-top: -17.5px;
+	margin-left: -20px;
+	position: fixed;
+	display: none;
+	cursor: pointer;
+}
+.tagLine {
+	color: white;
+	font-size: 75%;
+	position: fixed;
+	text-align: left;
+	word-wrap: break-word;
+	margin-left: 35px;
+	margin-top: 180px;
+	display: none;
+}
+.featherAlt {
+	color: white;
+	font-size: 75%;
+	position: absolute;
+	text-align: left;
+	word-wrap: break-word;
+	margin-left: 35px;
+	margin-top: 180px;
+	display: none;
+
+}
 .linkAlt {
 	color: white;
-	size: 50%;
 	position: absolute;
 	margin-left: 45px;
 	margin-top: -19px;
@@ -57,7 +120,7 @@ overflow: hidden;
 	display: none;
 	position: fixed;
 	cursor: pointer;
-	max-width:190px;
+	max-width:170px;
 }
 
 .logo2 {
@@ -65,7 +128,7 @@ overflow: hidden;
 	display: none;
 	position: fixed;
 	cursor: pointer;
-	max-width:190px;
+	max-width:170px;
 }
 
 .hand {
