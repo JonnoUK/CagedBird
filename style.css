@@ -4,8 +4,7 @@ margin: 0px;
 overflow: hidden;
 }
 
-
-.falling {
+.falling, .falling2 {
 	max-width: 150px;
 	margin-top: 450px;
 	margin-left: 650px;
@@ -15,17 +14,7 @@ overflow: hidden;
 	display: none;
 	cursor: pointer;
 }
-.falling2 {
-	max-width: 150px;
-	margin-top: 450px;
-	margin-left: 650px;
-	transform: rotate(-30deg);
-	float: right;
-	position: absolute;
-	display: none;
-	cursor: pointer;
-}
-.falling10 {
+.falling10, .falling12 {
 	max-width: 150px;
 	margin-top: 350px;
 	margin-left: 750px;
@@ -35,17 +24,7 @@ overflow: hidden;
 	display: none;
 	cursor: pointer;
 }
-.falling12 {
-	max-width: 150px;
-	margin-top: 350px;
-	margin-left: 750px;
-	transform: rotate(-30deg);
-	float: right;
-	position: absolute;
-	display: none;
-	cursor: pointer;
-}
-.fallingToolTip {
+.fallingToolTip, .fallingToolTip2, .handToolTip {
 	color: white;
 	font-size: 65%;
 	margin-top: 25%;
@@ -54,29 +33,9 @@ overflow: hidden;
 	margin-right: 25%;
 	display: none;
 	text-align: center;
-}
-.fallingToolTip2 {
-	color: white;
-	font-size: 65%;
-	margin-top: 25%;
-	float: right;
-	position: relative;
-	margin-right: 25%;
-	display: none;
-	text-align: center;
-}
-.handToolTip {
-	color: white;
-	font-size: 65%;
-	margin-top: 25%;
-	margin-right: 25%;
-	float: right;
-	position: relative;
-	text-align: center;
-	display: none;
 }
 
-.feather {
+.feather, .featherC {
 	max-height: 75px;
 	position: fixed;
 	margin-top: -17.5px;
@@ -85,14 +44,6 @@ overflow: hidden;
 	
 }
 
-.featherC {
-	max-height: 75px;
-	margin-top: -17.5px;
-	margin-left: -20px;
-	position: fixed;
-	display: none;
-	cursor: pointer;
-}
 .tagLine {
 	color: white;
 	position: fixed;
@@ -105,8 +56,7 @@ overflow: hidden;
 }
 .featherAlt {
 	color: white;
-	font-size: 75%;
-	position: absolute;
+	position: fixed;
 	text-align: left;
 	word-wrap: break-word;
 	margin-left: 35px;
@@ -151,7 +101,7 @@ overflow: hidden;
 
 }
 
-.logo {
+.logo, .logo2 {
 	margin-left: 25px;
 	display: none;
 	position: fixed;
@@ -159,26 +109,7 @@ overflow: hidden;
 	max-width:170px;
 }
 
-.logo2 {
-	margin-left: 25px;
-	display: none;
-	position: fixed;
-	cursor: pointer;
-	max-width:170px;
-}
-
-.hand {
-	margin-top: -15%;
-	margin-left: 50%;
-	min-width: 35%;
-    max-width: 50%;
-    display: none;
-    background-color: none;
-    position: absolute;
-    cursor: pointer;
-}
-
-.hand2 {
+.hand, .hand2 {
 	margin-top: -15%;
 	margin-left: 50%;
 	min-width: 35%;
@@ -201,14 +132,6 @@ overflow: hidden;
 	margin-top: 200px;
 	color: white;
 	position: absolute;
-}
-
-#line2 {
-	margin-left: 35px;
-	color: white;
-	position: absolute;
-	margin-top: 100%;	
-	display: none;
 }
 
 .neonText {
@@ -239,7 +162,7 @@ overflow: hidden;
 }
 
 .castCrew2 {
-	margin-top: -45%;
+	margin-top: -40%;
 	position: absolute;
 	cursor: pointer;
 	max-height: 100%;
@@ -278,15 +201,12 @@ height: 0px;
 font-size: 0%;
 }
 
-.neonText {
+.neonText, .castCrew2 {
 margin-top: 155%;
 max-width: 100%;
 }
-.line2 {
-display: block;
-}
 
-.logo, .logo2, .socialMedia, .line, .feather, .tagLine {
+.logo, .logo2, .socialMedia, .line, .feather, .tagLine, .featherAlt {
 position: absolute;
 }
 
