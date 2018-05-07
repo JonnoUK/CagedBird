@@ -33,3 +33,21 @@ margin-top: -415px;
     background-color: none;
 }
 
+.neonText {
+	margin-left: 35px;
+	margin-top: -20%;
+	color: white;
+}
+
+.text1, .text2, .text3, .line {
+display: none;
+}
+
+h2 {
+	font-family: Impact;
+
+}
+
+h4 {
+	margin-top: -15px;
+}

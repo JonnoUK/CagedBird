@@ -1,10 +1,35 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>Caged Bird Theatre</title>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
 $(document).ready(function(){
+	$(".hand").fadeIn(1000);
+	$(".logo").delay(2000);
+	$(".logo").fadeIn(1000);
+	
+		
     $(".hand").mouseover(function(){
         $(".hand").hide();
         $(".hand2").show();
@@ -22,8 +47,17 @@ $(document).ready(function(){
     $(".logo2").mouseout(function(){
      	$(".logo2").hide();
         $(".logo").show();
-    
     });
+    $(".line").delay(3000);
+    $(".line").fadeIn(1000);
+    $(".text1").delay(4000);
+	$(".text1").fadeIn(1000);
+	$(".text2").delay(5000);
+	$(".text2").fadeIn(1000);
+	$(".text3").delay(6000);
+	$(".text3").fadeIn(1000);
+    
+    
 });
 </script>
 
@@ -31,12 +65,38 @@ $(document).ready(function(){
 
 <body>
 
-<img src="Hand.png" alt="" class="hand" onload="$(this).fadeIn(1000);"></img>
+<img src="Hand.png" alt="" class="hand"></img>
+
 <img src="hand_2.png" alt="" class="hand2"></img>
-<img src="caged-bird.png" alt="" class="logo" onload="$(this).delay(2000); $(this).fadeIn(1000);">
+
+<img src="caged-bird.png" alt="" class="logo">
+
 <img src="cagedbird_2.png" alt="" class="logo2">
 </img>
 
+<div class="neonText">
+<div class="Line">
+<h2><b>_______________________</b></h2>
+</div>
+
+<div class="text1">
+<h2>MONDAY 4TH JUNE 2018</h2>
+<h4><i>Roborough Studios, University of Exeter</i></h4>
+</div>
+
+
+<div class="text2">
+<h2>SUNDAY 17TH JUNE 2018</h2>
+<h4><i>Nottingham New Theatre, Nottingham</i></h4>
+</div>
+
+
+<div class="text3">
+<h2>6TH - 8TH AUGUST 2018</h2>
+<h4><i>The Lion and Unicorn Theatre, London</i></h4>
+</div>
+
+</div>
 
 </body>
 
