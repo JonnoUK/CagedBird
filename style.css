@@ -1,6 +1,7 @@
 body {
 background-color: #e20161;
 margin: 0px;
+overflow: hidden;
 }
 
 .logo {
