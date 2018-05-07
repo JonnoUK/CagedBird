@@ -47,24 +47,29 @@ $(document).ready(function(){
 	
 		
     $(".hand").mouseover(function(){
+    	$(".fallingToolTip").hide();
         $(".hand").hide();
         $(".hand2").show();
         $(".handToolTip").fadeIn(1000);
+        
     });
     $(".hand2").mouseout(function(){
+    	$(".handToolTip").hide();
+    	$(".fallingToolTip").hide();
      	$(".hand2").hide();
         $(".hand").show();
-    	$(".handToolTip").fadeOut(1000);
     });
 	$(".falling").mouseover(function(){
+        $(".handToolTip").hide();
         $(".falling").hide();
         $(".falling2").show();
-        $(".fallingToolTip").fadeIn(1000);
+        $(".fallingToolTip").fadeIn(1000);    
     });
     $(".falling2").mouseout(function(){
+    	$(".fallingToolTip").hide();
+    	$(".handToolTip").hide();
      	$(".falling2").hide();
         $(".falling").show();
-    	$(".fallingToolTip").fadeOut(1000);
     });
 	
     $(".logo").mouseover(function(){
@@ -179,7 +184,7 @@ Leaf circle. It’s like the cross around yours."</i></h3>
 
 </div>
 <div class="handToolTip">
-<h3><i>"The new is coming. It grows like the leaves
+<h3><i>"The new is coming. <br>It grows like the leaves
 around your neck."</i></h3>
 
 </div>
