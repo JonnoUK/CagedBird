@@ -90,7 +90,7 @@ overflow: hidden;
     cursor: pointer;
 }
 
-.Line {
+.line {
 	margin-left: 35px;
 	margin-top: 150px;
 	color: white;
@@ -148,7 +148,7 @@ height: 0px;
 margin-top: 140%;
 max-width: 100%;
 }
-.logo, .logo2, .socialMedia, .Line, .feather {
+.logo, .logo2, .socialMedia, .line, .feather {
 position: absolute;
 }
 
