@@ -59,13 +59,13 @@ overflow: hidden;
 }
 .tagLine {
 	color: white;
-	font-size: 75%;
 	position: fixed;
 	text-align: left;
 	word-wrap: break-word;
 	margin-left: 35px;
 	margin-top: 180px;
 	display: none;
+	font-size: 57%;
 }
 .featherAlt {
 	color: white;
@@ -76,7 +76,7 @@ overflow: hidden;
 	margin-left: 35px;
 	margin-top: 180px;
 	display: none;
-
+	font-size: 57%;
 }
 .linkAlt {
 	color: white;
@@ -197,11 +197,15 @@ display: none;
 
 h2 {
 	font-family: Impact;
-
+	
 }
-
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+}
 h4 {
 	margin-top: -15px;
+	font-family: Verdana, Geneva, sans-serif;
+	
 }
 
 @media screen and (max-width: 500px) {
