@@ -104,6 +104,14 @@ overflow: hidden;
 	position: absolute;
 }
 
+#line2 {
+	margin-left: 35px;
+	color: white;
+	position: absolute;
+	margin-top: 100%;	
+	display: none;
+}
+
 .neonText {
 	margin-left: 35px;
 	margin-right: 25%;

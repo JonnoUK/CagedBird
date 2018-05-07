@@ -104,8 +104,10 @@ $(".hand").fadeIn(1000);
 
 if($(window).width() <= 500) {
 	$(".neon2").css("display", "none");
+	$("#line2").delay(5000);
 	$(".neon2").delay(5000);
 	$(".neon2").fadeIn(1000);
+	$("#line2").fadeIn(1000);
 }
 
 $(".hand2").click(function() {
@@ -183,9 +185,9 @@ $(".logo2").click(function() {
 
 
 
-
 <div id="info" class="neonText">
 <div class="neon2">
+<h2 id="line2"><b>_______________________</b></h2>
 <h2> NEON </h2>
 <h4><i>A New Play by Patrick Swain</i></h4>
 <p>When Jude meets a chap who claims to be God, he seems to just be a deluded recluse.
