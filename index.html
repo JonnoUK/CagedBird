@@ -24,8 +24,16 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
+ function _scrollTo(to) {
+    $('html, body').animate({
+        scrollTop: $(to).offset().top
+    }, 1000);
+    return true;
+}
+</script>
+<script>
 $(document).ready(function(){
-	$(".hand").fadeIn(1000);
+$(".hand").fadeIn(1000);
 	$(".logo").delay(2000);
 	$(".logo").fadeIn(1000);
 	
@@ -39,7 +47,7 @@ $(document).ready(function(){
         $(".hand").show();
     
     });
-
+	
     $(".logo").mouseover(function(){
         $(".logo").hide();
         $(".logo2").show();
@@ -56,7 +64,22 @@ $(document).ready(function(){
 	$(".text2").fadeIn(1000);
 	$(".text3").delay(6000);
 	$(".text3").fadeIn(1000);
+
+$(".hand2").click(function() {
+    _scrollTo('#info')
+    $(".neonText").fadeIn(1000);
+});
+$("#topButton").click(function() {
+    _scrollTo('#top')
+    $(".neonText").fadeIn(1000);
+});
+$(".logo2").click(function() {
+    _scrollTo('#top')
+});
+
+	
     
+   
     
 });
 </script>
@@ -65,16 +88,17 @@ $(document).ready(function(){
 
 <body>
 
-<img src="Hand.png" alt="" class="hand"></img>
 
-<img src="hand_2.png" alt="" class="hand2"></img>
+<img src="Hand.png" alt="" id="top" class="hand"></img>
+
+<a><img src="hand_2.png"  alt="" class="hand2"></img></a>
 
 <img src="caged-bird.png" alt="" class="logo">
 
-<img src="cagedbird_2.png" alt="" class="logo2">
+<a><img src="cagedbird_2.png" alt="" class="logo2"></a>
 </img>
 
-<div class="neonText">
+<div class="dates">
 <div class="Line">
 <h2><b>_______________________</b></h2>
 </div>
@@ -98,6 +122,21 @@ $(document).ready(function(){
 
 </div>
 
+
+<div id="info" class="neonText">
+<div class="neon2">
+<h2> NEON </h2>
+<h4><i>A New Play by Patrick Swain</i></h4>
+<p>When Jude meets a chap who claims to be God, he seems to just be a deluded recluse.
+But when one of her patients claims to be having visions of a strange man in his flat,
+she finds herself caught up in the birth of a new religion. What lies beyond death?
+What lay before life? And in a world of neon lights and unsettling headlines, why is one of the Old Gods going by John Doe?
+Hilarious yet morbid, bitter yet warm, Neon is a bold new play that explores loneliness,
+death and transcendence, and the potential to find faith in the unlikeliest of spaces.</p>
+</div>
+<a id="topButton">Back to Top</a>
+
+</div>
 </body>
 
 

@@ -3,19 +3,21 @@ background-color: #e20161;
 margin: 0px;
 overflow: hidden;
 }
-
+a {
+	cursor: pointer;
+}
 .logo {
-margin-top: -415px;
 	margin-left: 25px;
 	height: 190px;
 	display: none;
+	position: fixed;
 }
 
 .logo2 {
-margin-top: -415px;
 	margin-left: 25px;
 	height: 190px;
 	display: none;
+	position: fixed;
 }
 
 .hand {
@@ -24,6 +26,7 @@ margin-top: -415px;
     height: 600px;
     display: none;
     background-color: none;
+    position: absolute;
 }
 
 .hand2 {
@@ -32,13 +35,31 @@ margin-top: -415px;
     height: 600px;
     display: none;
     background-color: none;
+    position: absolute;
+}
+
+.dates {
+	margin-left: 35px;
+	margin-top: 169px;
+	color: white;
+	position: absolute;
 }
 
 .neonText {
 	margin-left: 35px;
-	margin-top: -20%;
+	margin-right: 25%;
+	text-align: justify;
+	margin-top: 1500px;	
 	color: white;
+	position: absolute;
+	display: none;
 }
+
+.neon2 {
+	margin-top: -40%;
+	position: relative;
+}
+
 
 .text1, .text2, .text3, .line {
 display: none;
