@@ -13,6 +13,7 @@ overflow: hidden;
 	float: right;
 	position: absolute;
 	display: none;
+	cursor: pointer;
 }
 .falling2 {
 	max-width: 300px;
@@ -22,21 +23,22 @@ overflow: hidden;
 	float: right;
 	position: absolute;
 	display: none;
+	cursor: pointer;
 }
 .fallingToolTip {
 	color: white;
 	font-size: 65%;
-	float: right;
 	margin-top: 350px;
+	float:right;
 	margin-right: 338px;
 	display: none;
 }
 .handToolTip {
 	color: white;
 	font-size: 65%;
-	float: right;
 	margin-top: 325px;
 	margin-right: 338px;
+	float: right;
 	display: none;
 }
 
@@ -214,16 +216,20 @@ body {
 overflow: visible;
 
 }
-.hand, .hand2 {
+.hand, .hand2, .falling, .falling2 {
 
 width: 0px;
 height: 0px;
 }
 .neonText {
-margin-top: 140%;
+margin-top: 155%;
 max-width: 100%;
 }
-.logo, .logo2, .socialMedia, .line, .feather {
+.line2 {
+display: block;
+}
+
+.logo, .logo2, .socialMedia, .line, .feather, .tagLine {
 position: absolute;
 }
 
