@@ -38,6 +38,7 @@ $(document).ready(function(){
 
 	$(".hand").fadeIn(3000);
 	$(".falling").fadeIn(3000);
+	$(".falling10").fadeIn(3000);
 	$(".logo").delay(1000);
 	$(".logo").slideDown(1000);
 	$(".feather").delay(1000);
@@ -48,6 +49,7 @@ $(document).ready(function(){
 		
     $(".hand").mouseover(function(){
     	$(".fallingToolTip").hide();
+    	$(".fallingToolTip2").hide();
         $(".hand").hide();
         $(".hand2").show();
         $(".handToolTip").fadeIn(1000);
@@ -56,11 +58,13 @@ $(document).ready(function(){
     $(".hand2").mouseout(function(){
     	$(".handToolTip").hide();
     	$(".fallingToolTip").hide();
+    	$(".fallingToolTip2").hide();
      	$(".hand2").hide();
         $(".hand").show();
     });
 	$(".falling").mouseover(function(){
         $(".handToolTip").hide();
+        $(".fallingToolTip2").hide();
         $(".falling").hide();
         $(".falling2").show();
         $(".fallingToolTip").fadeIn(1000);    
@@ -68,8 +72,24 @@ $(document).ready(function(){
     $(".falling2").mouseout(function(){
     	$(".fallingToolTip").hide();
     	$(".handToolTip").hide();
+    	$(".fallingToolTip2").hide();
      	$(".falling2").hide();
         $(".falling").show();
+    });
+    
+    $(".falling10").mouseover(function(){
+        $(".handToolTip").hide();
+        $(".fallingToolTip").hide();
+        $(".falling10").hide();
+        $(".falling12").show();
+        $(".fallingToolTip2").fadeIn(1000);    
+    });
+    $(".falling12").mouseout(function(){
+    	$(".fallingToolTip2").hide();
+    	$(".fallingToolTip").hide();
+    	$(".handToolTip").hide();
+     	$(".falling12").hide();
+        $(".falling10").show();
     });
 	
     $(".logo").mouseover(function(){
@@ -147,18 +167,21 @@ $(document).ready(function(){
 
 
 $(".hand2").click(function() {
-    _scrollTo('#info')
+    _scrollTo("#info")
 });
+$(".falling2").click(function() {
+    _scrollTo("#info")
+}); 
 $("#topButton").click(function() {
-    _scrollTo('#top')
-    $(".neon2").fadeIn(1000);
+    _scrollTo("#top")
+});
+$("#topButton2").click(function() {
+    _scrollTo("#top")
 });
 $(".logo2").click(function() {
-    _scrollTo('#top')
+    _scrollTo("#info2")
 });  
-$(".featherC").click(function() {
-    _scrollTo('#top')
-}); 
+
 
 
   
@@ -174,18 +197,27 @@ $(".featherC").click(function() {
 
 <a><img src="hand_2.png"  alt="" class="hand2"></img></a>
 
-<a><img src="fallingPeople.png" alt="" class="falling"></img></a>
+<a><img src="photos/fallingMan1.png" alt="" class="falling"></img></a>
 
-<a><img src="fallingPeople_C.png"  alt="" class="falling2"></img></a>
+<a><img src="photos/fallingMan1_c.png"  alt="" class="falling2"></img></a>
 
-<div class="fallingToolTip">
-<h3><i>"He wears a necklace. A wreath. I think. <br>
-Leaf circle. It’s like the cross around yours."</i></h3>
+<a><img src="photos/fallingMan2.png" alt="" class="falling10"></img></a>
+
+<a><img src="photos/fallingMan2_c.png"  alt="" class="falling12"></img></a>
+
+<div class="handToolTip">
+<h3><i>"The new is coming.<br>It grows like the leaves
+around your neck."</i></h3>
 
 </div>
-<div class="handToolTip">
-<h3><i>"The new is coming. <br>It grows like the leaves
-around your neck."</i></h3>
+
+<div class="fallingToolTip2">
+<h3><i>"If this is a symptom, I hear voices."</i></h3>
+
+</div>
+
+<div class="fallingToolTip">
+<h3><i>"You took me away from my Capri Suns."</i></h3>
 
 </div>
 <a><img src="caged-bird.png" alt="" class="logo"></a>
@@ -212,7 +244,7 @@ around your neck."</i></h3>
 <img src="feather.png" alt="Feather" class="feather"></img>
 
 </div>
-<h4 id="standardTag" class="tagLine">There's a potential to find faith in the unlikeliest of spaces.</h4>
+<h4 id="standardTag" class="tagLine">How would you feel about restoring some faith?</h4>
 <h4 id="featherCL" class="featherAlt">Website created by Jonathan Taylor</h4>
 <div class="line">
 <h2><b>_______________________</b></h2>
@@ -239,9 +271,8 @@ around your neck."</i></h3>
 
 
 
-<div id="info" class="neonText">
-<div class="neon2">
-<h2 id="line2"><b>_______________________</b></h2>
+<div class="neonText" id="info">
+<div  class="neon2">
 <h2> NEON </h2>
 <h4><i>A New Play by Patrick Swain</i></h4>
 <p>When Jude meets a chap who claims to be God, he seems to just be a deluded recluse.
@@ -252,7 +283,23 @@ Hilarious yet morbid, bitter yet warm, Neon is a bold new play that explores lon
 death and transcendence, and the potential to find faith in the unlikeliest of spaces.</p>
 <a id="topButton"><b>Back to Top</b></a>
 </div>
+</div>
 
+
+<div class="castCrew" id="info2" >
+<div class="castCrew2">
+<h2> THE TEAM</h2>
+<h4><i>A New Play by Patrick Swain</i></h4>
+<p>Writer: Patrick Swain<br>
+Director: Jasper Frost<br>
+Producer: Jonathan Taylor<br>
+Assistant Producer: Bridie Shine
+</p>
+<a id="topButton2"><b>Back to Top</b></a>
+</div>
+</div>
+
+<br>
 
 </div>
 </body>

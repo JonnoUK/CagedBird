@@ -6,7 +6,7 @@ overflow: hidden;
 
 
 .falling {
-	max-width: 300px;
+	max-width: 150px;
 	margin-top: 450px;
 	margin-left: 650px;
 	transform: rotate(-30deg);
@@ -16,7 +16,7 @@ overflow: hidden;
 	cursor: pointer;
 }
 .falling2 {
-	max-width: 300px;
+	max-width: 150px;
 	margin-top: 450px;
 	margin-left: 650px;
 	transform: rotate(-30deg);
@@ -25,7 +25,37 @@ overflow: hidden;
 	display: none;
 	cursor: pointer;
 }
+.falling10 {
+	max-width: 150px;
+	margin-top: 350px;
+	margin-left: 750px;
+	transform: rotate(-30deg);
+	float: right;
+	position: absolute;
+	display: none;
+	cursor: pointer;
+}
+.falling12 {
+	max-width: 150px;
+	margin-top: 350px;
+	margin-left: 750px;
+	transform: rotate(-30deg);
+	float: right;
+	position: absolute;
+	display: none;
+	cursor: pointer;
+}
 .fallingToolTip {
+	color: white;
+	font-size: 65%;
+	margin-top: 25%;
+	float: right;
+	position: relative;
+	margin-right: 25%;
+	display: none;
+	text-align: center;
+}
+.fallingToolTip2 {
 	color: white;
 	font-size: 65%;
 	margin-top: 25%;
@@ -184,16 +214,35 @@ overflow: hidden;
 .neonText {
 	margin-left: 35px;
 	margin-right: 25%;
-	text-align: justify;
-	margin-top: 150%;	
+	margin-top: 150%;
+	text-align: justify;	
+	width: 75%;
 	color: white;
 	position: absolute;
 }
 
 .neon2 {
-	margin-top: -40%;
-	position: relative;
+	margin-top: 190px;
+	position: absolute;
 	cursor: pointer;
+	max-height: 100%;
+}
+
+.castCrew {
+	margin-left: 35px;
+	margin-right: 25%;
+	margin-top: 250%;
+	text-align: justify;	
+	width: 75%;	
+	color: white;
+	position: absolute;
+}
+
+.castCrew2 {
+	margin-top: -45%;
+	position: absolute;
+	cursor: pointer;
+	max-height: 100%;
 }
 
 
@@ -220,12 +269,12 @@ body {
 overflow: visible;
 
 }
-.hand, .hand2, .falling, .falling2 {
+.hand, .hand2, .falling, .falling2, .falling10, .falling12 {
 
 width: 0px;
 height: 0px;
 }
-.fallingToolTip, .handToolTip {
+.fallingToolTip, .handToolTip, .fallingToolTip2 {
 font-size: 0%;
 }
 
