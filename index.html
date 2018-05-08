@@ -36,19 +36,10 @@ $(document).ready(function(){
 	
 	if($('.fallingToolTip').is(':visible')){
 		$(".handToolTip").hide();
-        $(".fallingToolTip2").hide();
-        $(".neonLogo").hide();
-        
+        $(".fallingToolTip2").hide();     
     }
 	if($('.fallingToolTip2').is(':visible')){
 		$(".handToolTip").hide();
-        $(".fallingToolTip").hide();
-        $(".neonLogo").hide();
-        
-    }
-    if($('.neonLogo').is(':visible')){
-		$(".handToolTip").hide();
-        $(".fallingToolTip").hide();
         $(".fallingToolTip").hide();
         
     }
@@ -56,7 +47,6 @@ $(document).ready(function(){
 		$(".handToolTip").hide();
         $(".fallingToolTip").hide();
         $(".fallingToolTip2").hide();
-        $(".neonLogo").hide();
         
     }
 	$(".hand").fadeIn(3000);
@@ -75,6 +65,8 @@ $(document).ready(function(){
     $(".line").fadeIn(1000);
     $(".neonLogo").delay(2000);
     $(".neonLogo").fadeIn(1000);
+    $("#writer").delay(2000);
+    $("#writer").fadeIn(1000);
     $(".text1").delay(3000);
 	$(".text1").fadeIn(1000);
 	$(".text2").delay(4000);
@@ -85,7 +77,6 @@ $(document).ready(function(){
     $(".hand").mouseover(function(){
     	$(".fallingToolTip").hide();
     	$(".fallingToolTip2").hide();
-    	$(".neonLogo").hide();
         $(".hand").hide();
         $(".hand2").show();
         $(".handToolTip").fadeIn(1000);
@@ -97,13 +88,10 @@ $(document).ready(function(){
     	$(".fallingToolTip2").hide();
      	$(".hand2").hide();
         $(".hand").show();
-        $(".neonLogo").delay(1000);
-        $(".neonLogo").fadeIn(1000);
     });
 	$(".falling").mouseover(function(){
         $(".handToolTip").hide();
         $(".fallingToolTip2").hide();
-        $(".neonLogo").hide();
         $(".falling").hide();
         $(".falling2").show();
         $(".fallingToolTip").fadeIn(1000);    
@@ -114,14 +102,11 @@ $(document).ready(function(){
     	$(".fallingToolTip2").hide();
      	$(".falling2").hide();
         $(".falling").show();
-        $(".neonLogo").delay(1000);
-        $(".neonLogo").fadeIn(1000);
     });
     
     $(".falling10").mouseover(function(){
         $(".handToolTip").hide();
         $(".fallingToolTip").hide();
-        $(".neonLogo").hide();
         $(".falling10").hide();
         $(".falling12").show();
         $(".fallingToolTip2").fadeIn(1000);    
@@ -132,8 +117,6 @@ $(document).ready(function(){
     	$(".handToolTip").hide();
      	$(".falling12").hide();
         $(".falling10").show();
-        $(".neonLogo").delay(1000);
-        $(".neonLogo").fadeIn(1000);
     });
 	
     $(".logo").mouseover(function(){
@@ -215,6 +198,9 @@ $("#topButton").click(function() {
 $("#topButton2").click(function() {
     _scrollTo("#top")
 });
+$("#teamButton").click(function() {
+    _scrollTo("#info2")
+});
 $(".logo2").click(function() {
     _scrollTo("#info2")
 });  
@@ -289,6 +275,8 @@ around your neck."</i></h3>
 <h2><b>_______________________</b></h2>
 </div>
 <a><img src="photos/Neon_logo.png" alt="" class="neonLogo"></img></a>
+<h4 id="writer"><i>A New Play<br>
+by Patrick Swain</h4></i>
 <div class="dates">
 <div class="text1">
 <h2>MONDAY 4TH JUNE 2018</h2>
@@ -320,6 +308,7 @@ she finds herself caught up in the birth of a new religion. What lies beyond dea
 What lay before life? And in a world of neon lights and unsettling headlines, why is one of the Old Gods going by John Doe?
 Hilarious yet morbid, bitter yet warm, Neon is a bold new play that explores loneliness,
 death and transcendence, and the potential to find faith in the unlikeliest of spaces.</p>
+<a id="teamButton"><b>View the Team</b></a><br><br>
 <a id="topButton"><b>Back to Top</b></a>
 </div>
 </div>
@@ -329,10 +318,13 @@ death and transcendence, and the potential to find faith in the unlikeliest of s
 <div class="castCrew2">
 <h2> THE TEAM</h2>
 <h4><i>A New Play by Patrick Swain</i></h4>
-<p>Writer: Patrick Swain<br>
-Director: Jasper Frost<br>
-Producer: Jonathan Taylor<br>
-Assistant Producer: Bridie Shine
+<p><b>Writer:</b> Patrick Swain<br>
+<b>Director:</b> Jasper Frost<br>
+<b>Producer:</b> Jonathan Taylor<br>
+<b>Assistant Producer:</b> Bridie Shine<br>
+<br>
+<b>Production Assistant:</b> Roisin McCay<br>
+<b>Production Assistant:</b> Roshi Cowen<br>
 </p>
 <a id="topButton2"><b>Back to Top</b></a>
 </div>

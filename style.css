@@ -4,6 +4,25 @@ margin: 0px;
 overflow: hidden;
 }
 
+.neonLogo {
+	max-width: 200px;
+	margin-top: 215px;
+	margin-left: 35px;
+	display: none;
+}
+#topButton, #teamButton, #topButton2 {
+	font-size: 150%;
+	cursor: pointer;
+	position: absolute;
+}
+#writer {
+	color: white;
+	margin-top: -30px;
+	margin-left: 250px;
+	font-size: 75%;
+	display: none;
+}
+
 .falling, .falling2 {
 	max-width: 150px;
 	margin-top: 450px;
@@ -16,7 +35,7 @@ overflow: hidden;
 }
 .falling10, .falling12 {
 	max-width: 150px;
-	margin-top: 350px;
+	margin-top: 360px;
 	margin-left: 750px;
 	transform: rotate(-30deg);
 	float: right;
@@ -24,14 +43,13 @@ overflow: hidden;
 	display: none;
 	cursor: pointer;
 }
-.fallingToolTip, .fallingToolTip2, .handToolTip, .neonLogo {
+.fallingToolTip, .fallingToolTip2, .handToolTip {
 	color: white;
 	max-width: 200px;
 	font-size: 65%;
+	margin-left: 50%;
 	margin-top: 25%;
-	float: right;
-	position: relative;
-	margin-right: 25%;
+	position: absolute;
 	display: none;
 	text-align: center;
 }
@@ -130,7 +148,7 @@ overflow: hidden;
 
 .dates {
 	margin-left: 35px;
-	margin-top: 200px;
+	margin-top: -10px;
 	color: white;
 	position: absolute;
 }
@@ -148,7 +166,6 @@ overflow: hidden;
 .neon2 {
 	margin-top: 190px;
 	position: absolute;
-	cursor: pointer;
 	max-height: 100%;
 }
 
@@ -165,7 +182,6 @@ overflow: hidden;
 .castCrew2 {
 	margin-top: -40%;
 	position: absolute;
-	cursor: pointer;
 	max-height: 100%;
 }
 
@@ -175,20 +191,20 @@ display: none;
 }
 
 h2 {
-	font-family: Impact;
+	font-family: Verdana, Geneva, sans-serif;
 	
 }
 h3 {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Arial, Helvetica, sans-serif
 }
 h4 {
 	margin-top: -15px;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Arial, Helvetica, sans-serif
 	
 }
 
 p {	
-font-family: Verdana, Geneva, sans-serif;
+font-family: Arial, Helvetica, sans-serif
 }
 
 @media screen and (max-width: 950px) {
@@ -202,7 +218,7 @@ overflow: visible;
 width: 0px;
 height: 0px;
 }
-.fallingToolTip, .handToolTip, .fallingToolTip2 {
+.fallingToolTip, .handToolTip, .fallingToolTip2, .neonLogo {
 font-size: 0%;
 }
 
