@@ -24,8 +24,9 @@ overflow: hidden;
 	display: none;
 	cursor: pointer;
 }
-.fallingToolTip, .fallingToolTip2, .handToolTip {
+.fallingToolTip, .fallingToolTip2, .handToolTip, .neonLogo {
 	color: white;
+	max-width: 200px;
 	font-size: 65%;
 	margin-top: 25%;
 	float: right;
