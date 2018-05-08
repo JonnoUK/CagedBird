@@ -187,6 +187,10 @@ h4 {
 	
 }
 
+p {	
+font-family: Verdana, Geneva, sans-serif;
+}
+
 @media screen and (max-width: 950px) {
 
 body {
