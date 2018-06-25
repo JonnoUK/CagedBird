@@ -2666,21 +2666,21 @@ opacity: 1;
 .counter_box {
   text-align: left;
   margin: 25px 0;
-  padding: 15px 5px;
+  padding: 0px 5px;
 }
 .counter_box span, .counter_box .counter {
   font-size: 48px;
   display: inline-block;
   margin: 0;
-  color: #f50136;
-  font-weight: 600;
+  color: white;
+  font-weight: 400;
 }
 .counter_box h5 {
   font-weight: 500;
   text-transform: capitalize;
   margin: 0;
-  font-size: 14px;
-  color: #18181c;
+  font-size: 10px;
+  color: white;
   margin-top: 15px;
 }
 
