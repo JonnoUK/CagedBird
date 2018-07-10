@@ -1943,7 +1943,6 @@ footer .newsletter_form .form-control {
 #fb_link {
 width: 20px;
 height: 20px;
-cursor: pointer;
 }
 
 
@@ -1951,17 +1950,14 @@ cursor: pointer;
 width: 20px;
 height: 20px;
 margin-left: 10px;
-cursor: pointer;
 }
 
 #i_link {
 width: 20px;
 margin-left: 10px;
-cursor: pointer;
 }
 
 .stage-door {
-cursor: pointer;
 max-width: 100%;
 border-radius:10px;
   -webkit-transition: all 300ms ease-in-out;
@@ -1969,7 +1965,6 @@ border-radius:10px;
 }
 
 .stage-door:hover {
-cursor: pointer;
 border-radius: 85px;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
