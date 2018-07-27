@@ -70,14 +70,12 @@ $(document).ready(function() {
      =============================================== */
     $(".cover_slider").owlCarousel({
         loop:true,
-        autoplay:false,
-        smartSpeed:5000,
+        autoplay:true,
+        smartSpeed:500,
         autoplayHoverPause:false,
         dots:true,
         nav:false,
         items:1,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
         dotsContainer: '.cover_dots'
     });
 
