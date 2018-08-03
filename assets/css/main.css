@@ -1730,6 +1730,7 @@ header.sticky_header {
   border-radius: 2px;
 }
 
+
 @media (min-width: 767px) {
   header li:hover > ul {
     display: block;
@@ -1941,20 +1942,16 @@ footer .newsletter_form .form-control {
 
 
 #fb_link {
-width: 20px;
-height: 20px;
+max-width: 20px;
 }
 
 
 #t_link {
-width: 20px;
-height: 20px;
-margin-left: 10px;
+max-width: 20px;
 }
 
 #i_link {
-width: 20px;
-margin-left: 10px;
+max-width: 20px;
 }
 
 .stage-door {
@@ -2526,7 +2523,7 @@ Cover
 }
 
 /*  ----------------------------------------------------
-7 Price box
+7 C box
 -------------------------------------------------------- */
 .price_box {
   position: relative;
