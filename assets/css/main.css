@@ -2065,6 +2065,29 @@ Cover
   -webkit-transition: all 0.4s 600ms ease-in-out;
   transition: all 0.4s 600ms ease-in-out;
 }
+.cover_slider .slider_content .slider-content-inner .cover-title2 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: all 0.4s 900ms ease-in-out;
+  transition: all 0.4s 900ms ease-in-out;
+}
+.cover_slider .slider_content .slider-content-inner .cover-title3 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: all 0.4s 1200ms ease-in-out;
+  transition: all 0.4s 1200ms ease-in-out;
+}
+
 .cover_slider .slider_content .slider-content-inner .cover-xl-text {
   text-transform: uppercase;
   font-size: 90px;
@@ -2100,6 +2123,22 @@ Cover
   -webkit-transition: all 0.4s 300ms ease-in-out;
   transition: all 0.4s 300ms ease-in-out;
 }
+.cover_slider .active .slider_content .slider-content-inner * .cover-title2 {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: all 0.4s 600ms ease-in-out;
+  transition: all 0.4s 600ms ease-in-out;
+}
+.cover_slider .active .slider_content .slider-content-inner * .cover-title3 {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: all 0.4s 900ms ease-in-out;
+  transition: all 0.4s 900ms ease-in-out;
+}
+
+
 .cover_slider .active .slider_content .slider-content-inner * .cover-xl-text {
   opacity: 1;
   -webkit-transform: translateY(0px);
@@ -2111,8 +2150,8 @@ Cover
   opacity: 1;
   -webkit-transform: translateY(0px);
   transform: translateY(0px);
-  -webkit-transition: all 0.4s 900ms ease-in-out;
-  transition: all 0.4s 900ms ease-in-out;
+  -webkit-transition: all 0.4s 600ms ease-in-out;
+  transition: all 0.4s 600ms ease-in-out;
 }
 .cover_slider .active .slider_content .slider-content-inner * a {
   opacity: 1;
@@ -2611,7 +2650,7 @@ opacity: 1;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   cursor: pointer;
-  
+
 }
 
 /*  ----------------------------------------------------
